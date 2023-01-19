@@ -74,6 +74,88 @@ nav {
     background-color: yellowgreen;
     width: 50%;
     text-align: center;
+}
+
+/* section-2.................. */
+.section-2 {
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 6rem;
+}
+
+.s2text {
+    background-color: rgb(190, 218, 135);
+    width: 50%;
+    text-align: center;
+}
+
+
+/* section-3............. */
+.section-3 {
+
+    padding-left: 5rem;
+    padding-right: 6rem;
+    margin-top: 60px;
+
+}
+
+.box-item {
+    background-color: rgb(204, 192, 192);
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+}
+
+.box1 {
+    width: 169px;
+    height: 136.22px;
+    background-color: rgb(210, 238, 210);
+    margin-top: 60px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+
+}
+
+.sponspor {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.sponspor div h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sponspor div h4 {
+    text-align: center;
+}
+
+.sponspor-item {
+    width: 169px;
+    height: 136.22px;
+    background-color: rgb(210, 238, 210);
+    margin-top: 60px;
+
+}
+
+/* footer................... */
+footer {
+    padding-left: 5rem;
+    padding-right: 6rem;
+    height: 10rem;
+    margin-top: 10px;
+    background-color: rgb(104, 99, 99);
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    background: #FFF4E7;
+    margin-top: 60px;
 
 
 }
