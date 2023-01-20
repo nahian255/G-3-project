@@ -15,6 +15,22 @@ header {
 /* nav.................................... */
 nav {
     height: 70px;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div h1 {
+    font-size: xx-large;
+}
+
+.sidebar {
+    display: flex;
+    list-style: none;
+    width: 20%;
+    justify-content: space-between
 }
 
 /* banner.................................. */
@@ -26,7 +42,7 @@ nav {
     width: 862px;
     height: 225px;
     left: 229px;
-    top: 155px;
+    top: 115px;
     font-family: 'Work Sans';
     font-style: normal;
     text-align: center;
@@ -49,11 +65,22 @@ nav {
 
 }
 
+.btn {
+    width: 120px;
+    height: 34px;
+    background-color: orange;
+    border: #FF900E;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
 /* main.............. */
 .section-1 {
     display: flex;
     padding-left: 5rem;
     padding-right: 6rem;
+    margin-top: 5rem;
+
 }
 
 .s1img {
@@ -61,7 +88,6 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-    background-color: grey;
     width: 50%;
 }
 
@@ -71,9 +97,11 @@ nav {
 }
 
 .s1text {
-    background-color: yellowgreen;
     width: 50%;
     text-align: center;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 7rem;
 }
 
 /* section-2.................. */
@@ -81,12 +109,32 @@ nav {
     display: flex;
     padding-left: 5rem;
     padding-right: 6rem;
+    margin-top: 5rem;
 }
 
 .s2text {
     background-color: rgb(190, 218, 135);
     width: 50%;
     text-align: center;
+
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.s2text div {
+    padding: 2rem;
+}
+
+.s2img {
+    width: 50%;
+}
+
+.s2img img {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -100,7 +148,6 @@ nav {
 }
 
 .box-item {
-    background-color: rgb(204, 192, 192);
     display: flex;
     justify-content: space-evenly;
     box-sizing: border-box;
@@ -110,11 +157,15 @@ nav {
 .box1 {
     width: 169px;
     height: 136.22px;
-    background-color: rgb(210, 238, 210);
     margin-top: 60px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    /* transform: rotate(90deg); */
+    text-align: center;
+
+}
+
+.box-item :hover {
+    transform: rotate(20deg);
 
 }
 
@@ -137,9 +188,14 @@ nav {
 .sponspor-item {
     width: 169px;
     height: 136.22px;
-    background-color: rgb(210, 238, 210);
     margin-top: 60px;
 
+}
+
+.new-sec {
+    padding: 40px;
+    background-color: lightblue;
+    margin-top: 3rem;
 }
 
 /* footer................... */
@@ -148,7 +204,6 @@ footer {
     padding-right: 6rem;
     height: 10rem;
     margin-top: 10px;
-    background-color: rgb(104, 99, 99);
 }
 
 footer div {
@@ -156,6 +211,7 @@ footer div {
     justify-content: center;
     background: #FFF4E7;
     margin-top: 60px;
+    padding: 2rem;
 
 
 }
