@@ -9,7 +9,7 @@ header {
     background: rgba(255, 144, 14, 0.1);
 }
 
-/* nav.................................... */
+/* /.................................nav............................. */
 nav {
     height: 70px;
     padding-top: 2rem;
@@ -30,7 +30,7 @@ nav div h1 {
     justify-content: space-between
 }
 
-/* banner.................................. */
+/* .............................banner............................................ */
 .banner-text {
     position: absolute;
     height: 225px;
@@ -79,7 +79,7 @@ nav div h1 {
     border-radius: 6px;
 }
 
-/* main.............. */
+/* ...........................main.......................................... */
 .section-1 {
     display: flex;
     padding-left: 5rem;
@@ -107,7 +107,7 @@ nav div h1 {
     margin-top: 7rem;
 }
 
-/* section-2.................. */
+/* .........................section-2.................. */
 .section-2 {
     display: flex;
     padding-left: 5rem;
@@ -116,7 +116,6 @@ nav div h1 {
 }
 
 .s2text {
-    background-color: rgb(190, 218, 135);
     width: 50%;
     text-align: center;
 }
@@ -139,7 +138,7 @@ nav div h1 {
     height: auto;
 }
 
-/* section-3............. */
+/*...................... section-3............. */
 .section-3 {
     padding-left: 5rem;
     padding-right: 6rem;
@@ -192,7 +191,7 @@ nav div h1 {
     margin-top: 3rem;
 }
 
-/* footer................... */
+/* ......................footer................... */
 footer {
     padding-left: 5rem;
     padding-right: 6rem;
